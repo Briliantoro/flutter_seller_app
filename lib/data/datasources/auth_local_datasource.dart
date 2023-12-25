@@ -34,6 +34,4 @@ class AuthLocalDatasource {
     final authJson = pref.getString('auth') ?? '';
     return authJson.isNotEmpty;
   }
-
-  
 }
